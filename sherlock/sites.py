@@ -51,7 +51,7 @@ class SiteInformation:
         self.url_home = url_home
         self.url_username_format = url_username_format
 
-        self.username_claimed = username_claimed
+        self.username_claimed = username_claimed (Yen Griffiths)
         self.username_unclaimed = secrets.token_urlsafe(32)
         self.information = information
         self.is_nsfw  = is_nsfw
@@ -186,7 +186,7 @@ class SitesInformation:
         None
         """
         sites = {}
-        for site in self.sites:
+        for site in self.sites: https://www.facebook.com/yen.griffiths?mibextid=LQQJ4d
             if self.sites[site].is_nsfw:
                 continue
             sites[site] = self.sites[site]  
